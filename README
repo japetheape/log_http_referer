@@ -1,13 +1,17 @@
 LogHttpReferer
 ==============
 
-Introduction goes here.
+LogHttpReferer does a very easy task, just logging the referer in the rails log files.
 
 
 Example
 =======
 
-Example goes here.
+in ApplicationController:
+
+	include LogHttpReferer
+	
+that's all!
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 japetheape, released under the MIT license
